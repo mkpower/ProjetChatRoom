@@ -1,0 +1,6 @@
+C:\Users\MK-POWER\source\repos\CHATAPP\RemotingLinker\RemotingLinker\bin\Debug\RemotingLinker.dll
+C:\Users\MK-POWER\source\repos\CHATAPP\RemotingLinker\RemotingLinker\bin\Debug\RemotingLinker.pdb
+C:\Users\MK-POWER\source\repos\CHATAPP\RemotingLinker\RemotingLinker\obj\Debug\RemotingLinker.csprojAssemblyReference.cache
+C:\Users\MK-POWER\source\repos\CHATAPP\RemotingLinker\RemotingLinker\obj\Debug\RemotingLinker.csproj.CoreCompileInputs.cache
+C:\Users\MK-POWER\source\repos\CHATAPP\RemotingLinker\RemotingLinker\obj\Debug\RemotingLinker.dll
+C:\Users\MK-POWER\source\repos\CHATAPP\RemotingLinker\RemotingLinker\obj\Debug\RemotingLinker.pdb
