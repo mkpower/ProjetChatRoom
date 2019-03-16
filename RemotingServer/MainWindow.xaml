@@ -1,0 +1,122 @@
+﻿<Window x:Class="RemotingServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RemotingServer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        >
+    <Grid>
+        <Button x:Name="Demarer" Content="Demarer" 
+            HorizontalAlignment="Left" 
+            Margin="397,98,0,0" 
+            VerticalAlignment="Top" 
+            Width="174" Height="36" Click="Demarer_Click" RenderTransformOrigin="0.5,0.5"
+                
+                />
+        <Button x:Name="arreter" Content="Arreter"
+            HorizontalAlignment="Left"
+            Margin="397,228,0,0"
+            VerticalAlignment="Top"
+            Width="174" Height="34" Click="arreter_Click"
+                />
+        <TextBlock x:Name="status"
+            Margin="397,341,21,54"
+            TextWrapping="Wrap"
+            Text=""
+            Height="24"
+            Width="174" FontFamily="Rockwell" FontSize="18" FontWeight="Bold" Foreground="#DDF1083D" HorizontalAlignment="Center" VerticalAlignment="Center"
+            />
+        <TextBox x:Name="port" 
+            
+            HorizontalAlignment="Left"
+            
+            Height="23" 
+            Margin="82,125,0,0" 
+            TextWrapping="Wrap" 
+            
+            Text="" 
+            VerticalAlignment="Top" 
+            Width="174"
+            />
+        <TextBox x:Name="session" 
+            HorizontalAlignment="Left"
+            
+            Height="23"
+            Margin="82,216,0,0"
+            TextWrapping="Wrap"
+            Text="" 
+            VerticalAlignment="Top"
+            Width="174" />
+
+
+        <Label Content="Port       :"
+            HorizontalAlignment="Left"
+            Margin="10,125,0,0"
+            VerticalAlignment="Top"/>
+
+        <Label 
+            Content="Session :" 
+            HorizontalAlignment="Left" 
+            Margin="10,216,0,0" 
+            VerticalAlignment="Top"
+            />
+        <Label 
+            Content="Adresse Machine :" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="10,289,0,0"
+            />
+        <TextBlock x:Name="adresse" 
+            HorizontalAlignment="Left" 
+            Margin="135,294,0,0"
+            TextWrapping="Wrap" 
+            Text=""
+            VerticalAlignment="Top" Foreground="#DDD42525" Width="240"/>
+
+        <TextBlock 
+            HorizontalAlignment="Center"
+            Margin="165,10,139,0" 
+            TextWrapping="Wrap" 
+            Text=" Gestion Serveur" 
+            VerticalAlignment="Top" 
+            Width="288" 
+            FontFamily="Rockwell" 
+            FontSize="36" 
+            Foreground="#DDDE2727"/>
+
+        <Label Content="vous pouver utiliser: 8088"
+            HorizontalAlignment="Left"
+            Margin="82,153,0,0"
+            VerticalAlignment="Top" FontSize="11" Foreground="#DDFF0303"/>
+
+        <Label Content="vous pouver utiliser : ChatRoom"
+            HorizontalAlignment="Left"
+            Margin="82,239,0,0"
+            VerticalAlignment="Top" FontSize="11" Foreground="#DDFF0303"/>
+
+        <TextBlock Text="Les clients doivent utiliser l'adresse machine pour" 
+            HorizontalAlignment="Left"
+            Margin="19,330,0,0"
+            VerticalAlignment="Top" Height="15" Width="356" Foreground="#DD9F59CF"
+               />
+        <TextBlock Text="se connecter !!!" 
+            HorizontalAlignment="Left"
+            Margin="19,350,0,0"
+            VerticalAlignment="Top" Height="15" Width="419" Foreground="#DDAB04F9"
+               />
+        <Border
+            BorderThickness="3 3 3 3"
+            CornerRadius="3.2"
+          
+            BorderBrush="YellowGreen"
+            Margin="6,96,217,35"
+            />
+    </Grid>
+</Window>
